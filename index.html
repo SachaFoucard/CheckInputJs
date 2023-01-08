@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/functions.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CheckInputs</title>
+</head>
+
+<body>
+    <div class="all grid rows-three">
+
+            <fieldset>
+                <div class="form-group spc">
+                    <label for="exampleInputEmail1">Email address :</label>
+                    <input class="form-field" type="email" class="form-control input" id="Email1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                        <p id="any" class="rd"></p>
+                </div>
+                <div class="form-group spc">
+                    <label for="exampleInputEmail1">Confirm your Email :</label>
+                    <input type="email" class="form-control input" id="Email2" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                        <p id="any" class="rd"></p>
+                </div>
+                <div class="form-group spc">
+                    <label for="exampleInputPassword1">Password :</label>
+                    <input type="password" class="form-control input" id="Password1" placeholder="Password">
+                    <p id="any" class="rd"></p>
+                </div>
+                <div class="form-group spc">
+                    <label for="exampleInputPassword1">Confirm Password :</label>
+                    <input type="password" class="form-control input" id="Password2" placeholder="Password">
+                    <p id="any" class="rd"></p>
+                </div>
+                <div class="form-group form-check spc">
+                    <input type="checkbox" class="form-check-input input  remember" id="remember">
+                    <label class=" form-check-label" for="exampleCheck1">Click to agree</label>
+                </div>
+                <button id="submit" type="submit" class="btn btn-primary spc">Submit</button>
+            </fieldset>
+
+        <div class="form-group spc grid ">
+            <label for="message">Enter a message :</label>
+            <p id="counter"></p>
+            <textarea id="tweetContent" placeholder="Votre Tweet Ici..." style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 86px; width:60%"></textarea>
+        </div>
+        <div>
+            <p>count:
+                <p id="count"></p>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+*::before,*::after{
+    box-sizing: border-box;
+}
+
+*body{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    display: grid;
+}
+.all button{
+width: 70px;
+height: 25px;
+border-radius: 5px;
+}
+.rows-three{
+    justify-content: center;
+}
+.all .spc{
+margin-top: 10px;
+}
+.text{
+    width: 500px;
+    padding-bottom: 200px;
+}
+.active{
+    border: red 1px solid;
+}
+.active-bg{
+    background-color: red;
+}
+.rd{
+    color: red;
+}
+.unchecked
+{
+    background-color: red;
+    outline: thick solid red ;
+}
+.checked
+{
+    background-color: white;
+    outline: thick solid white;
+}
+body{
+    background-color: antiquewhite;
+}
